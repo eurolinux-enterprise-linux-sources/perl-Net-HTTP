@@ -1,6 +1,6 @@
 Name:           perl-Net-HTTP
 Version:        6.06
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Low-level HTTP connection (client)
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -60,6 +60,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.06-2
+- Mass rebuild 2013-12-27
+
 * Mon Mar 11 2013 Petr Pisar <ppisar@redhat.com> - 6.06-1
 - 6.06 bump
 
